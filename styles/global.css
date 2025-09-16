@@ -13,6 +13,7 @@
 :root {
     --main-color: #C92071;
     --white-color: #FFFFFF;
+    --faded-gray-color: #474747;
 }
 
 html, body {
@@ -42,9 +43,63 @@ main {
     background: linear-gradient(#B5B6F2, #EFEFFF);
 
     form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         height: 572px;
         width: 315px;
         margin: auto;
         background-color: var(--white-color);
+        padding: 30px 30px;
+
+        .text {
+
+            h1 {
+                font-size: 22px;
+                text-align: center;
+                line-height: 34px;
+                letter-spacing: 2px;
+                color: #1F1F1F;
+            }
+
+            p {
+                font-size: 14px;
+                text-align: center;
+                line-height: 24px;
+                color: var(--faded-gray-color);
+
+                a {
+                    color: var(--faded-gray-color);
+                    border-bottom: solid var(--faded-gray-color);
+                }
+            }
+
+            
+        }
+
+        .inputbox {
+            .input {
+                label {
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.75px;
+                    color: var(--faded-gray-color);
+                    display: block;
+                }
+                input {
+                    display: block;
+                    width: 100%; height: 60px;
+                    background-color: #4747470E;
+                    padding: 15px;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    letter-spacing: .75px;
+                    color: #666666;
+                    margin-top: 5px;
+                }
+            }
+
+        }
     }
 }
