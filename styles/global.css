@@ -10,6 +10,28 @@
     outline: none;
 }
 
+:root {
+    --main-color: #C92071
+}
+
 html, body {
     height: 100%;
+}
+
+header {
+    
+    a {
+        display: flex;
+        width: 178px; height: 64px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 4.5px;
+
+        span {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--main-color)
+        }
+    }
 }
