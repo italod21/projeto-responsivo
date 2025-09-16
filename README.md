@@ -1,2 +1,2 @@
-# projeto-responsivo
-Treino de responsividade com o auxílio do FIGMA.
+# Projeto Responsivo
+- Treino de responsividade com o auxílio do FIGMA.
