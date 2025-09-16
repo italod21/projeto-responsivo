@@ -11,7 +11,8 @@
 }
 
 :root {
-    --main-color: #C92071
+    --main-color: #C92071;
+    --white-color: #FFFFFF;
 }
 
 html, body {
@@ -33,5 +34,17 @@ header {
             font-weight: 600;
             color: var(--main-color)
         }
+    }
+}
+
+main {
+    padding: 63px 0 80px;
+    background: linear-gradient(#B5B6F2, #EFEFFF);
+
+    form {
+        height: 572px;
+        width: 315px;
+        margin: auto;
+        background-color: var(--white-color);
     }
 }
