@@ -78,6 +78,9 @@ main {
         }
 
         .inputbox {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
             .input {
                 label {
                     font-size: 12px;
